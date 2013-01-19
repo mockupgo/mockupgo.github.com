@@ -1,0 +1,392 @@
+body {
+	color: #999;
+	background: url('img/backgroung.png');
+	background-color: #e2e3e5;
+	margin: 0px;
+	margin-top: 0;
+	font-family: Helvetica, arial, Lucida Grande, Verdana, Sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+
+div#container {
+	width: 90%;
+	max-width: 820px;
+
+	margin: 40px auto;
+
+	position: relative;
+	padding-top: 4em;
+	padding-bottom: 40px;
+
+	background: rgba(255, 255, 255, 0.5);
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+h1 {
+	color: #393939;
+	text-align: center;
+	margin-top: 0;
+	font-size: 45px; /* 45/14 */
+	line-height: 60px;
+	letter-spacing: -0.5px;
+	font-weight: normal;
+	padding: 0 10%;
+}
+
+p.description, li.description {
+	max-width: 820px;
+	margin: 5%;
+	line-height: 1.8em;
+	font-size: 1.2em; /* 45/14 */
+	/*text-align: center;*/
+	padding: 0 5%;
+	list-style: none;
+}
+
+
+
+ol {
+	list-style: none;
+	margin: 60px auto 0;
+	padding: 0;
+	width: auto;
+	margin: 0 15%;
+}
+
+ol li {
+	display: block;
+	/*height: 85px;*/
+	position: relative;
+	width: inherit;
+	clear: both;
+}
+
+ol li img {
+	width: 15%;
+	max-width: 60px;
+	float: left;
+}
+
+ol li h2 {
+	font-size: 25px;
+	float: right;
+	width: 83%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+/*	top: 5px;
+	left: 80px;*/
+	font-weight: bold;
+	color: #272727;
+}
+
+ol li p {
+	float: right;
+	width: 83%;
+	margin-top: 0.3em;
+	font-size: 16px;
+	color: #5D5D5D;
+}
+
+/* CALL TO ACTION */
+
+div.call_to_action_bar {
+	clear: both;
+
+	width: 80%;
+	
+	padding: 0.5em;
+	border: 1px solid #DDD;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 1em auto;
+
+
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+a.big_button {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+input[type="submit"], button, a.button {
+	background-color: #CCC;
+	background-image: -moz-linear-gradient(top, #EEE, #AAA);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #EEE),color-stop(1, #AAA));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#aaaaaa');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#aaaaaa')";
+	color: #333 !important;
+	border: 1px solid #999;
+	cursor: pointer;
+	position: relative;
+	outline: 0;
+}
+
+
+
+.green {
+	background-color: #7AC054 !important;
+	background-image: -moz-linear-gradient(top, #A7ED82, #549A2F) !important;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #A7ED82),color-stop(1, #549A2F)) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#a7ed82', EndColorStr='#549a2f') !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#a7ed82', EndColorStr='#549a2f')" !important;
+}
+
+
+/* BENEFITS */
+
+div#benefits {
+	width: auto;
+	margin: 0 5% 0 7%;
+	/*height: 400px;*/
+}
+
+div#benefits div.benefit {
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+/*	margin: 20px;
+	height: 90px;*/
+}
+
+div#benefits div.benefit img {
+	float: left;
+	width: 15%;
+	max-width: 50px;
+/*	margin-right: 15px;
+	margin-top: 3px;*/
+}
+
+h2 {
+	color: #393939;
+	font-size: 25px;
+	letter-spacing: -0.5px;
+	font-weight: bold;
+}
+
+div#benefits div.benefit h2 {
+	margin: 0;
+	margin-left: 16%;
+	font-size: 20px;
+}
+
+div#benefits div.benefit p {
+	margin-top: 5px;
+	font-size: 12px;
+	margin-left: 16%;
+	line-height: 1.4em;
+}
+
+
+.clear-both {
+	clear: both;
+}
+
+
+.center {
+	text-align: center;
+}
+
+hr {
+	border: 0;
+	margin: 0;
+	border-top: 1px solid #CCC;
+	/*width: 90%;*/
+	margin: 0 5%;
+	/*margin-top: 50px;*/
+	clear: both;
+}
+
+
+div#footer {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 10px;
+	height: 12px;
+}
+
+div#footer p.copyright {
+	float: left;
+}
+
+div#footer p.social {
+float: right;
+}
+
+
+/* For pricing page */
+div#inner_container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+div#mc_embed_signup {
+	margin: 0 auto;
+	text-align:center;
+}
+
+/*** Mysterious Things ***/
+img.tree {
+	width: 15%;
+	float: right;
+	margin-right: 10%;
+}
+
+img.tori {
+	width: 8%;
+	float: right;
+	margin-right: 10%;
+}
+
+
+/*** MEDIA QUERIES ***/
+/*** This is rudimentary, but working for now ***/
+/*** If you want to improve it, contact me at sgignoux@gmail.com ***/
+
+div.large-screen {
+	display: block;
+}
+
+div.small-screen {
+	display: none;
+}
+
+@media screen and (max-width: 720px) {
+	div.large-screen {
+		display: none;
+	}
+
+	div.small-screen {
+		display: block;
+	}
+}
+
+
+
+
+@media screen and (max-width: 530px) {
+
+	div#container {
+		width: inherit;
+
+		margin: 0;
+
+		position: relative;
+		padding-top: 60px;
+		padding-bottom: 40px;
+
+		background: rgba(255, 255, 255, 0.5);
+
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+
+	}
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+	h1 {
+		font-size: 38px; /* 32px - 45px */
+		line-height: 55px;
+		letter-spacing: -0.5px;
+	}
+
+	div#container {
+		padding-top: 3em;
+	}
+
+	div#benefits div.benefit h2 {
+		font-size: 18px;
+	}
+
+	div#benefits div.benefit p {
+		font-size: 12px;
+	}
+	
+}
+
+@media screen and (max-width: 479px) {
+	div#benefits div.benefit {
+		float: none;
+		margin: 20px auto;
+		width: inherit;
+	}
+
+	ol {
+		margin: 0 10%;
+	}
+
+	h1 {
+		font-size: 32px; /* 45/14 */
+		line-height: 40px;
+		letter-spacing: -0.5px;
+	}
+
+	p.description, li.description {
+		line-height: 1.5em;
+		font-size: 14px; /* 45/14 */
+	}
+
+
+	ol li h2 {
+		font-size: 18px;
+	}
+
+	ol li p {
+		font-size: 12px;
+	}
+
+	div#benefits div.benefit h2 {
+		font-size: 18px;
+	}
+
+	div#benefits div.benefit p {
+		font-size: 12px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	div#container {
+		padding-top: 2em;
+	}
+
+	a.big_button {
+	font-size: 16px;
+	padding: 6px 8px;
+}
+
+}
+
+
+
+
