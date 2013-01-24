@@ -1,5 +1,5 @@
 body {
-	color: #999;
+	color: #777;
 	background: url('img/backgroung.png');
 	background-color: #e2e3e5;
 	margin: 0px;
@@ -9,6 +9,9 @@ body {
 	font-weight: normal;
 }
 
+a {
+	color: black;
+}
 
 div#container {
 	width: 90%;
@@ -32,14 +35,21 @@ div#container {
 
 }
 
+.logo-top {
+	margin-bottom: 30px;
+	width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 
 
 h1 {
 	color: #393939;
 	text-align: center;
 	margin-top: 0;
-	font-size: 45px; /* 45/14 */
-	line-height: 60px;
+	font-size: 50px; /* 45/14 */
+	line-height: 55px;
 	letter-spacing: -0.5px;
 	font-weight: normal;
 	padding: 0 10%;
@@ -66,6 +76,7 @@ ol {
 }
 
 ol li {
+	padding-top: 10px;
 	display: block;
 	/*height: 85px;*/
 	position: relative;
@@ -98,6 +109,7 @@ ol li p {
 	margin-top: 0.3em;
 	font-size: 16px;
 	color: #5D5D5D;
+	line-height: 1.4em;
 }
 
 /* CALL TO ACTION */
